@@ -1,22 +1,16 @@
 import React from 'react';
 import s from './Profile.Module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
-    return <div className={s.content}>
+    return <div>
         <div>
-            <img
-                src="../../images/scenery.jpg"
-                alt=""/>
+            <img src="https://www.bergfreunde.eu/out/pictures/promo/picture_brandshop_1440x490_4(1).jpg" alt=""/>
         </div>
         <div>
             ava + description
         </div>
-        <div>
-            "My post"
-            <div> new post </div>ьз
-            <div className={s.item}> post1</div>
-            <div className={s.item}> post2</div>
-        </div>
+        <MyPosts/>
     </div>
 }
 
