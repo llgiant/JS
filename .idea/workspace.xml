@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1e0ee42-cc2c-4c44-a7e7-4798e5be0166" name="Default Changelist" comment="">
+    <list default="true" id="d1e0ee42-cc2c-4c44-a7e7-4798e5be0166" name="Default Changelist" comment="Dialogs added">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.Module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.Module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/picture_brandshop_1440x490_4(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/scenery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/testban2-1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="llgiant &lt;llgiant@gmail.com&gt;" />
+        <option value="Bogdan" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -100,11 +118,24 @@
       <workItem from="1609661669500" duration="5186000" />
       <workItem from="1610019629873" duration="10768000" />
       <workItem from="1610459747045" duration="6613000" />
-      <workItem from="1610638791690" duration="694000" />
+      <workItem from="1610638791690" duration="3720000" />
     </task>
+    <task id="LOCAL-00001" summary="Navlink in navbar added">
+      <created>1610639686049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610639686049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Navlink in navbar added" />
+    <MESSAGE value="Dialogs added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialogs added" />
   </component>
 </project>
