@@ -6,9 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.Module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.Module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/picture_brandshop_1440x490_4(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/scenery.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/testban2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Settings/Settings.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +36,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="eddac046-3efc-41a2-8c02-865b8a1f72ac" />
-  </component>
   <component name="ProjectId" id="1m4Bmf18CjQXCn34zNNbtIMrQdi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -119,6 +114,8 @@
       <workItem from="1610019629873" duration="10768000" />
       <workItem from="1610459747045" duration="6613000" />
       <workItem from="1610638791690" duration="3720000" />
+      <workItem from="1610684634092" duration="1672000" />
+      <workItem from="1610688320354" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="Navlink in navbar added">
       <created>1610639686049</created>
@@ -132,6 +129,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Navlink in navbar added" />

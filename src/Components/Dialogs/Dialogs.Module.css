@@ -1,20 +1,23 @@
-
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+
+}
+.dialog a{
+    text-decoration-line: none;
+}
+
+.dialog a.activeLink{
+    color: gold;
 }
 
 .messages {
     padding: 10px;
 }
 
-.dislogsItems .active {
-    color: gold;
-}
-
-
 .dislogsItems {
 padding: 10px;
+
 }
 
 
