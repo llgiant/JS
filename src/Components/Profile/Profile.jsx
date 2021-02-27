@@ -1,17 +1,19 @@
 import React from 'react';
-import s from './Profile.Module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile = () => {
-    return <div>
+const Profile = (props) => {
+
+   let profileImg = "https://www.bergfreunde.eu/out/pictures/promo/picture_brandshop_1440x490_4(1).jpg";
+   let profileImgWidth = "800px";
+
+
+    return (
         <div>
-            <img src="https://www.bergfreunde.eu/out/pictures/promo/picture_brandshop_1440x490_4(1).jpg" alt=""/>
+            <ProfileInfo link={profileImg} width = {profileImgWidth}/>
+            <MyPosts/>
         </div>
-        <div>
-            ava + description
-        </div>
-        <MyPosts/>
-    </div>
+    )
 }
 
 export default Profile;

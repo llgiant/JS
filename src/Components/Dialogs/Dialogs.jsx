@@ -1,39 +1,35 @@
 import React from "react";
 import s from './Dialogs.Module.css';
-import {BrowserRouter, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
+const DialogItem = (props) => {
+    const path = "/dialogs/" + props.id;
+
+    return <div className={s.dialog + ' ' + s.active}>
+        <NavLink to={path}
+                 activeClassName={s.activeLink}>{props.name}</NavLink>
+    </div>
+}
+
+const Message = (props) => {
+    return <div className={s.dialog}>{props.message}</div>
+}
 
 const Dialogs = (props) => {
+
+
+    let dialogsElement = props.dialogsArr.map(d => <DialogItem name={d.name}  id={d.id}/>);
+    let messagesElements = props.messagesArr.map(m => <Message message={m.message}/>);
+
     return (
-        <BrowserRouter>
         <div className={s.dialogs}>
-            <div className={s.dislogsItems}>
-                <div className={s.dialog + ' ' + s.active}>
-                    <NavLink to="/Victor" activeClassName={s.activeLink}>Victor
-                    </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to="/Shaha" activeClassName={s.activeLink}>Shaha </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to="/Lena" activeClassName={s.activeLink}> Lena </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to="/Rita" activeClassName={s.activeLink}>Rita </NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to="/Antoha" activeClassName={s.activeLink}>Antoha </NavLink>
-                </div>
-            </div>
-
-            <div className={s.messages}>
-                <div className={s.dialog}>Hello World!</div>
-                <div className={s.dialog}>Message from 2030!!</div>
-                <div className={s.dialog}>Karamba!</div>
-            </div>
+        <div className={s.dialogsItems}>
+            {dialogsElement}
         </div>
-        </BrowserRouter>
-
+        <div className={s.messages}>
+            {messagesElements}
+        </div>
+    </div>
     )
 }
 export default Dialogs;

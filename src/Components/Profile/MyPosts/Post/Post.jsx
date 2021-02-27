@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Post.module.css';
 
-const Post = (param) => {
+const Post = (props) => {
     return <div>
         <div className={s.item}>
             <img
@@ -9,7 +9,7 @@ const Post = (param) => {
                 alt=""/>
             post1
             <div>
-                <span>{param.message}</span>
+                <span>{props.message}</span>
             </div>
 
             <span></span>
