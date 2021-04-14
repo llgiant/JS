@@ -1,8 +1,6 @@
 import React from 'react';
 import s from './ProfileInfo.Module.css';
 
-
-
 const ProfileInfo = (props) => {
     return <div>
         <div>
