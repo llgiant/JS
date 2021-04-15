@@ -7,12 +7,12 @@ const Post = (props) => {
             <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLPuGugpins1Lalfuj2VscKnuWUwFWbKgrfA&usqp=CAU"
                 alt=""/>
-            post1
+            <span>{props.message}</span>
             <div>
-                <span>{props.message}</span>
+                <span>likes: {props.likescount}</span>
             </div>
 
-            <span></span>
+
         </div>
     </div>
 }
