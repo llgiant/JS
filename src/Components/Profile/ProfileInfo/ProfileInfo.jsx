@@ -4,7 +4,7 @@ import s from './ProfileInfo.Module.css';
 const ProfileInfo = (props) => {
     return <div>
         <div>
-            <img src={props.link} width={props.width} alt=""/>
+            <img src={props.imageData.image} width={props.imageData.width} alt=""/>
         </div>
         <div className={s.descriptinBlock}>
             ava + description

@@ -12,9 +12,9 @@ const Navbar = (props) => {
     return <nav className={s.nav}>
         <Navigate link="/profile"                 name="Profile"/>
         <Navigate link={"/dialogs"}                  name={"Messages"}/>
-        <Navigate link={"/news"}                  name={"News"}/>
-        <Navigate link={"/music"}                  name={"Music"}/>
-        <Navigate link={"/settings"}                  name={"Settings"}/>
+        {/*<Navigate link={"/news"}                  name={"News"}/>*/}
+        {/*<Navigate link={"/music"}                  name={"Music"}/>*/}
+        {/*<Navigate link={"/settings"}                  name={"Settings"}/>*/}
     </nav>
 }
 
