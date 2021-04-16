@@ -2,7 +2,7 @@ import React from "react";
 import Post from "./Post/Post";
 import s from "./MyPosts.module.css";
 import {Button} from "reactstrap";
-import {updateNewPostText} from "../../../redux/state";
+
 
 const MyPosts = (props) => {
     let postsElements = props.posts.map((p) => (
@@ -19,7 +19,7 @@ const MyPosts = (props) => {
         let text = newPostElement.current.value;
         props.updateNewPostText(text);
     }
-
+debugger;
     return (
         <div>
             <h3>My post</h3>
@@ -30,7 +30,7 @@ const MyPosts = (props) => {
                     onChange={onPostChange}/>
                 <br/>
                 <Button color="success" onClick={addPost}>
-                    Add post
+                    Добавить пост
                 </Button>
 
                 <br/>
