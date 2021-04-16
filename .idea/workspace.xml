@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e0ee42-cc2c-4c44-a7e7-4798e5be0166" name="Default Changelist" comment="`Dialogs added`">
+    <list default="true" id="d1e0ee42-cc2c-4c44-a7e7-4798e5be0166" name="Default Changelist" comment="FLUX-added in MyPosts.jsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
     </list>
@@ -178,7 +175,10 @@
       <workItem from="1618452502176" duration="506000" />
       <workItem from="1618453063894" duration="1690000" />
       <workItem from="1618459165970" duration="100000" />
-      <workItem from="1618459316988" duration="7115000" />
+      <workItem from="1618459316988" duration="8461000" />
+      <workItem from="1618490466060" duration="1022000" />
+      <workItem from="1618500456194" duration="4504000" />
+      <workItem from="1618535764001" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="Navlink in navbar added">
       <created>1610639686049</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614452275852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="FLUX-added in MyPosts.jsx">
+      <created>1618466684197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618466684197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +230,7 @@
     <MESSAGE value="Navlink in navbar added" />
     <MESSAGE value="Dialogs added" />
     <MESSAGE value="`Dialogs added`" />
-    <option name="LAST_COMMIT_MESSAGE" value="`Dialogs added`" />
+    <MESSAGE value="FLUX-added in MyPosts.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="FLUX-added in MyPosts.jsx" />
   </component>
 </project>
