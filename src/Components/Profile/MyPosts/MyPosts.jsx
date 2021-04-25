@@ -13,7 +13,7 @@ const MyPosts = (props) => {
     let newPostElement = React.createRef();
 
     let addPost = () => {
-        props.dispatch();
+        props.dispatch(AddPostActionCreator());
     };
 
 
@@ -22,7 +22,6 @@ const MyPosts = (props) => {
         let action = UpdateNewPostTextActionCreator(text);
         props.dispatch(action);
     }
-    debugger;
     return (
         <div>
             <h3>My posts</h3>

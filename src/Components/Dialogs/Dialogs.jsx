@@ -2,6 +2,11 @@ import React from "react";
 import s from "./Dialogs.Module.css";
 import {NavLink} from "react-router-dom";
 import {Button} from "reactstrap";
+import {
+    AddMessageActionCreator,
+    UpdateNewMessageTextActionCreator,
+    UpdateNewNameTextActionCreator
+} from "../../redux/state";
 
 const DialogItem = (props) => {
     const path = "/dialogs/" + props.id;
@@ -28,17 +33,19 @@ const Dialogs = (props) => {
     let newDialogName = React.createRef();
 
     let addMessage = () => {
-        props.dispatch({type: 'ADD-MESSAGE'});
+        props.dispatch(AddMessageActionCreator());
     };
 
     let onNameChange = () => {
         let text = newDialogName.current.value;
-        props.dispatch({type:'UPDATE-NEW-NAME-TEXT',newDialogName:text});
+        let action = UpdateNewNameTextActionCreator(text);
+        props.dispatch(action);
     };
 
     let onMessageChange = () => {
         let text = newDialogMessage.current.value;
-        props.dispatch({type: 'UPDATE-NEW-MESSAGE-TEXT', newDialogMessage: text});
+        let action = UpdateNewMessageTextActionCreator(text);
+        props.dispatch(action);
     };
 
     return (
@@ -53,10 +60,10 @@ const Dialogs = (props) => {
                     value={props.state.newDialogName}
                     onChange={onNameChange}
                 />
-                <textarea
-                    ref={newDialogMessage}
-                    value={props.state.newDialogMessage}
-                    onChange={onMessageChange}
+                <textarea aria-label={"Сообщение"}
+                          ref={newDialogMessage}
+                          value={props.state.newDialogMessage}
+                          onChange={onMessageChange}
                 />
                 <Button color="success" onClick={addMessage}>
                     Отправить сообщение

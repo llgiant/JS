@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1e0ee42-cc2c-4c44-a7e7-4798e5be0166" name="Default Changelist" comment="FLUX-added to Dialogs.jsx`">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
@@ -196,6 +197,7 @@
       <workItem from="1619329853096" duration="166000" />
       <workItem from="1619330035444" duration="5891000" />
       <workItem from="1619337225409" duration="4140000" />
+      <workItem from="1619351701581" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="Navlink in navbar added">
       <created>1610639686049</created>
@@ -264,8 +266,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/state.js</url>
-          <line>49</line>
-          <properties lambdaOrdinal="-1" />
+          <line>55</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
