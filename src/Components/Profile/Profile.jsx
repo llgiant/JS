@@ -1,17 +1,16 @@
 import React from 'react';
 import MyPosts from "./MyPosts/MyPosts";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import {updateNewPostText} from "../../redux/state";
 
 const Profile = (props) => {
     return (
         <div>
-            <ProfileInfo imageData={props.profilePage}/>
-            <MyPosts posts={props.profilePage.posts}
-                     newPostText={props.profilePage.newPostText}
-                     addPost={props.addPost}
-                     updateNewPostText={props.updateNewPostText}
-                     />
+            <ProfileInfo state={props.state.profileImage}/>
+            <MyPosts
+                state={props.state}
+                dispatch={props.dispatch}
+
+            />
         </div>
     )
 }
