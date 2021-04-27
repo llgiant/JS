@@ -1,3 +1,7 @@
+import dialogsReducer from "./dialogs-reducer";
+import profileReducer from "./profile-reducer";
+import sidebarReducer from "./sidebar-reducer";
+
 const ADD_POST = 'ADD-POST';
 const ADD_MESSAGE = 'ADD-MESSAGE';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
@@ -21,7 +25,6 @@ let store = {
                 width: "800px",
             },
         },
-
         dialogsPage: {
             newDialogMessage: "Добавьте текст",
             newDialogName: "Имя",
@@ -55,35 +58,12 @@ let store = {
     },
 
     dispatch(action) {
-        if (action.type === ADD_POST) {
-            let newPost = {
-                id: 5,
-                message: store._state.profilePage.newPostText,
-                likescount: 0,
-            };
-            this._state.profilePage.posts.push(newPost);
-            this._state.profilePage.newPostText = '';
-            this._callSubscriber(store._state);
-        } else if (action.type === UPDATE_NEW_POST_TEXT) {
-            this._state.profilePage.newPostText = action.text;
-            this._callSubscriber(this._state);
-        } else if (action.type === ADD_MESSAGE) {
-            let newMessage = {
-                name: {id: 1, name: this._state.dialogsPage.newDialogName},
-                message: {message: this._state.dialogsPage.newDialogMessage}
-            };
-            this._state.dialogsPage.messages.push(newMessage.message);
-            this._state.dialogsPage.dialogs.push(newMessage.name);
-            this._state.dialogsPage.newDialogMessage = '';
-            this._state.dialogsPage.newDialogName = '';
-            this._callSubscriber(store._state);
-        } else if (action.type === UPDATE_NEW_MESSAGE_TEXT) {
-            this._state.dialogsPage.newDialogMessage = action.newDialogMessage;
-            this._callSubscriber(this._state);
-        } else if (action.type === UPDATE_NEW_NAME_TEXT) {
-            this._state.dialogsPage.newDialogName = action.newDialogName;
-            this._callSubscriber(store._state);
-        }
+this._state.dialogsPage = dialogsReducer(this._state.dialogsPage,action);
+this._state.profilePage = profileReducer(this._state.profilePage,action);
+this._state.sidebar = sidebarReducer(this._state.sidebar,action);
+        this._callSubscriber(this._state);
+
+
     }
 };
 
